@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.search-bar{
+  background: #fff;
+  border : 1.15em solid #fff;
+  border-radius: 4em;
+  z-index:5;
+}
+.search-text{
+  background: #fff;
+  margin: 0;
+  padding: 0 1em;
+  position: absolute;
+  margin-left :30px;
+  margin-top: -10px;
+  text-align: center;
+  color: black 
+}
+.search-borders{
+  border: solid 1px #808080;
+  border-radius: 100px;
+  padding: 5px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
